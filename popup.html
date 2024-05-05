@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+  <div id="modal" class="modal">
+    <input type="text" id="linkField" placeholder="Link">
+      <textarea id="todoField" rows="4" cols="50" placeholder="Note body"></textarea>
+    <select id="actionField">
+      <option value="today" selected>Add to today's note</option>
+      <option value="new">Create new note</option>
+    </select>
+    <div id="errorMessage"></div>
+    <button id="saveButton">Save</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
